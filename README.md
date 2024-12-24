@@ -9,7 +9,7 @@ The cluster validation code is structured within a python3 jupyter notebook and 
 
 The Cluster Validation Pipeline has dependencies given [here](https://github.com/Jeltema-Group/cluster-validation/blob/main/clustervalidation-env.yml)
 - Some worthy to note are the following:
-- - [NumPy](https://numpy.org/news/#releases) (1.17 - 1.26.4)
+- - [NumPy](https://numpy.org/news/#releases) (1.17 or later)
   - [SciPy](https://scipy.org) (1.3 or later)
   - [PyMc](https://www.pymc.io/welcome.html) (5.0 or later)
   - [Astropy](https://www.astropy.org) (3.0 or later)
@@ -22,7 +22,7 @@ Most of the required packages are standard and pip-installable, however there ar
 
 ## Usage
 
-The cluster validation pipeline compares/matches an input optical catalog to a well-centered x-ray cluster catalog and the SPT 2500d SZ cluster catalog then performs the following:
+The cluster validation pipeline compares/matches an input optical catalog to a well-centered x-ray cluster catalog and the SPT 2500d SZ cluster catalog. In the example implementation we use the Y1 DES redMaPPer cluster catalog as our input. The following validation tests are performed:
 
 - Finds cross matches between the optical input and the two truth catalogs using ClEvaR
   - Matches are found based off of a specificed offset radius and redshift range
