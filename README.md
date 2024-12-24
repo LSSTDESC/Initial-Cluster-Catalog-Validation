@@ -7,7 +7,7 @@ Assess the performance of optical cluster finders for sanity checks on LSST data
 
 The cluster validation code is structured within a python3 jupyter notebook and combines several different pieces of code across multiple libraries
 
-The Cluster Validation Pipeline has dependencies given [here](https://github.com/Jeltema-Group/cluster-validation/blob/main/clustervalidation-env.yml)
+The Cluster Validation Pipeline has dependencies given [here](https://github.com/LSSTDESC/Initial-Cluster-Catalog-Validation/blob/main/clustervalidation-env.yml)
 - Some worthy to note are the following:
 - - [NumPy](https://numpy.org/news/#releases) (1.17 or later)
   - [SciPy](https://scipy.org) (1.3 or later)
