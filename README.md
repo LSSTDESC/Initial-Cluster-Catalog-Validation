@@ -22,7 +22,7 @@ Most of the required packages are standard and pip-installable, however there ar
 
 ## Usage
 
-The cluster validation pipeline compares/matches an input optical catalog to a well-centered x-ray cluster catalog and the SPT 2500d SZ cluster catalog. In the example implementation we use the Y1 DES redMaPPer cluster catalog as our input. The following validation tests are performed:
+The cluster validation pipeline compares/matches an input optical catalog to a well-centered x-ray cluster catalog and the SPT 2500d SZ cluster catalog. In the example implementation we use the Y3 DES redMaPPer cluster catalog as our input. The following validation tests are performed:
 
 - Finds cross matches between the optical input and the two truth catalogs using ClEvaR
   - Matches are found based off of a specificed offset radius and redshift range
