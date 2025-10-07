@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Initial Cluster Catalog Validation
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ethan
+    family-names: Steelberg
+    orcid: 'https://orcid.org/0009-0002-7240-8622'
+  - given-names: Tesla
+    family-names: Jeltema
+    orcid: 'https://orcid.org/0000-0001-6089-0365'
+  - given-names: Jackson
+    family-names: O'Donnell
+    orcid: 'https://orcid.org/0000-0003-4083-1530'
+  - given-names: Rance
+    family-names: Solomon
+    orcid: 'https://orcid.org/0000-0003-0693-2469'
+identifiers:
+  - type: other
+    value: 'https://arxiv.org/abs/2509.07268'
+    description: Associated ArXiv preprint of the paper
+repository-code: >-
+  https://github.com/LSSTDESC/Initial-Cluster-Catalog-Validation
+license: BSD-3-Clause
